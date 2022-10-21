@@ -14,7 +14,7 @@ import { StoreUiSharedModule } from 'libs/store/ui-shared/src';
     BrowserModule,
     MatCardModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
-    StoreUiSharedModule
+    StoreUiSharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
