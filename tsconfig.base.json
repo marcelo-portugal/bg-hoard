@@ -17,6 +17,13 @@
     "paths": {
       "@bg-hoard/libs/store/ui-shared": [
         "libs/libs/store/ui-shared/src/index.ts"
+      ],
+      "@bg-hoard/store/ui-shared": ["libs/store/ui-shared/src/index.ts"],
+      "@bg-hoard/store/ui-shared/store-ui-shared": [
+        "libs/store/ui-shared/store-ui-shared/src/index.ts"
+      ],
+      "@bg-hoard/store/ulti-formatters": [
+        "libs/store/ulti-formatters/src/index.ts"
       ]
     }
   },

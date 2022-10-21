@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+
+import { formatRating } from 'libs/store/ulti-formatters/src';
+
 import { getAllGames } from '../fake-api';
 
 @Component({
@@ -9,4 +12,5 @@ import { getAllGames } from '../fake-api';
 export class AppComponent {
   title = 'Board Game Hoard';
   games = getAllGames();
+  formatRating = formatRating;
 }

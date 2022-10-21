@@ -35,7 +35,7 @@
     "@nrwl/cli": "15.0.0",
     "@nrwl/cypress": "15.0.1",
     "@nrwl/eslint-plugin-nx": "15.0.1",
-    "@nrwl/jest": "15.0.1",
+    "@nrwl/jest": "15.0.0",
     "@nrwl/linter": "15.0.1",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "15.0.0",

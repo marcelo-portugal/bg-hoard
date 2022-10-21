@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
-import { LibsStoreUiSharedModule } from 'libs/libs/store/ui-shared/src';
+import { StoreUiSharedModule } from 'libs/store/ui-shared/src';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
@@ -14,7 +14,7 @@ import { LibsStoreUiSharedModule } from 'libs/libs/store/ui-shared/src';
     BrowserModule,
     MatCardModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
-    LibsStoreUiSharedModule
+    StoreUiSharedModule
   ],
   providers: [],
   bootstrap: [AppComponent],
